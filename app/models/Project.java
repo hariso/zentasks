@@ -1,14 +1,8 @@
 package models;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.persistence.CascadeType;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.ManyToMany;
-
-import play.db.ebean.Model;
+import java.util.*;
+import javax.persistence.*;
+import play.db.ebean.*;
 
 @Entity
 public class Project extends Model {
